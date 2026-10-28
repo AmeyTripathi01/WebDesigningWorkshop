@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+        body {
+            font-family: Times New Roman, serif;
+            margin: 20px;
+            color: #000;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 15px 0;
+        }
+        .video-box {
+            width: 320px;
+            height: 180px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .play-button {
+            width: 50px;
+            height: 35px;
+            background-color: red;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 16px solid white;
+        }
+        .news-image {
+            width: 320px;
+            height: 130px;
+            background: linear-gradient(135deg, #001f3f, #0074D9);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 1px solid #333;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>News Website</h2>
+    <hr>
+
+    <h3>Navigation</h3>
+    <p>
+        <a href="#home">Home</a> | 
+        <a href="#national">National News</a> | 
+        <a href="#technology">Technology</a> | 
+        <a href="#sports">Sports</a> | 
+        <a href="#video">Video</a> | 
+        <a href="#about">About Me</a>
+    </p>
+    <hr>
+    <h3>Welcome to News Website</h3>
+    <p>Welcome to my news website. Here you can read news related to education, technology and sports.</p>
+
+    <h3>National News</h3>
+    <p>Education is an important part of our life. Students can learn new things through books and the internet.</p>
+    <p><a href="#">Read More</a></p>
+    <h3>Technology News</h3>
+    <p>Technology is growing rapidly. Computers and the internet have made our lives easier.</p>
+    <p><a href="#">Read Technology News</a></p>
+
+    <h3>Sports News</h3>
+    <p>Sports help us stay healthy and teach us teamwork and discipline.</p>
+    <p><a href="#">Read Sports News</a></p>
+    <h3>News Video</h3>
+    <p>Watch a news-related video below:</p>
+    <div class="video-box">
+        <div class="play-button">
+            <div class="play-triangle"></div>
+        </div>
+    </div>
+    <h3>News Image</h3>
+    <div class="news-image">
+        <div style="font-size: 22px; letter-spacing: 2px;">BREAKING</div>
+        <div style="font-size: 26px; letter-spacing: 3px;">NEWS</div>
+    </div>
+
+    <hr>
+    <h3>About Me</h3>
+    <p><strong>Name:</strong> Amey</p>
+    <p><strong>Section:</strong> CSE-2</p>
+    <p><strong>Admission No.:</strong> 2026B01010493</p>
+
+</body>
+</html>
